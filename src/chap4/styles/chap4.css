@@ -1,0 +1,20 @@
+h3 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: serif;
+}
+
+div {
+  font-family: Verdana, sans-serif;
+}
+
+.big {
+  font-size: 24px;
+}
+
+span {
+  font-family: Calibri, sans-serif;
+  font-size: 5em;
+}
