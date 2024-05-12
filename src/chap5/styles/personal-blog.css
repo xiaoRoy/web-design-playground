@@ -1,0 +1,54 @@
+/*  #b7c1d1 #ffc200
+    #5a80bf #0092ff
+    #1c4587 #1800ff
+ */
+body {
+  width: 550px;
+  color: #444;
+  font-size: 16px;
+  text-align: left;
+}
+
+#header {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  color: #1c4587;
+  font-size: 52px;
+}
+
+h2 {
+  color: #666;
+  font-size: 22px;
+}
+
+h2 span {
+  color: #b7c1d1;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h3 > a { 
+  color: #5a80bf;
+  text-decoration: none;
+}
+
+#body {
+    font-family: Georgia, serif;
+}
+#body ul {
+    list-style: circle;
+}
+
+#footer {
+    font: Georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#footer hr {
+    color: #666;
+}
