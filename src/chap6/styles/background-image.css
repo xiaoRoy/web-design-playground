@@ -1,0 +1,46 @@
+div {
+  background-color: azures;
+  background-image: url(../images/bg_sun.png);
+  width: 500px;
+  height: 200px;
+}
+
+#repeat-x {
+  background-color: azures;
+  background-image: url(../images/bg_sun.png);
+  background-repeat: repeat-x;
+  width: 500px;
+  height: 200px;
+}
+
+#repeat-y {
+  background-color: azures;
+  background-repeat: repeat-y;
+  background-image: url(../images/bg_sun.png);
+  width: 500px;
+  height: 200px;
+}
+
+#round {
+  background-color: azures;
+  background-repeat: round;
+  background-image: url(../images/bg_sun.png);
+  width: 500px;
+  height: 200px;
+}
+
+#space {
+  background-color: azures;
+  background-repeat: space;
+  background-image: url(../images/bg_sun.png);
+  width: 500px;
+  height: 200px;
+}
+
+#no-repeat {
+  background-color: azures;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg_sun.png);
+  width: 500px;
+  height: 200px;
+}

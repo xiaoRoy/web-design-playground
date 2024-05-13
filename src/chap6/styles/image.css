@@ -1,0 +1,8 @@
+span {
+  font-family: Optima, Verdana, sans-serif;
+  font-size: 3em;
+}
+
+ul {
+    list-style-image: url(../images/checkmark.png);
+}

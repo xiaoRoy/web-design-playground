@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.hero-image {
+  height: 100vh;
+  background: url(../images/coconut-tree.svg) center center;
+  background-size: cover;
+  color: hsl(58, 71%, 20%);
+}
+
+.hero-image h1 {
+  padding-left: 5vw;
+  padding-top: 5vh;
+  font-family: Didot, Georgia, serif;
+  font-size: 72px;
+}
+
+.hero-image h2 {
+  padding-left: 5vw;
+  width: 45%;
+  font-family: Didot, Georgia, serif;
+  font-size: 30px;
+}
+
+.main {
+    padding: 2em;
+}
