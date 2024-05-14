@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles/image.css" rel="stylesheet" />
+    <title>Chapter 6 Video</title>
+
+    <body>
+      <div>
+        <video
+          poster="images/atomic-logo.png"
+          width="625"
+          height="480"
+          controls
+          autoplay
+          loop
+        >
+          <source
+            src="videos/sample-a.mp4"
+            type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'
+          />
+
+          <source
+            src="videos/sample-b.mp4"
+            type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'
+          />
+        </video>
+      </div>
+
+      <div>
+
+        <audio 
+            controls
+            autoplay
+            loop
+        >
+            <source src="audios/y2301.mp3" type="audio/mp3">
+            <source src="audios/y2301.wav" type="audio/wav">
+        </audio>
+      </div>
+    </body>
+  </head>
+</html>
