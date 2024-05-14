@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chapter 7 Inline Style</title>
+    <style>
+      dt {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
+    <div>
+      <h2>Inline Style</h2>
+      <p style="font-size: 1.5em">
+        The <i>snowclone</i> is a kind of <i>phrasal template</i> since it comes
+        with one or more empty "slots" that get filled with words to create a
+        new phrase. Some examples:
+      </p>
+      <ul
+        style="
+          color: darkgreen;
+          font-family: 'Trebuchet MS', sans-serif;
+          font-size: 1.25em;
+        "
+      >
+        <li>I'm not an X, but I play one on TV</li>
+        <li>In X, no one can hear you Y</li>
+        <li>X and Y and Z, oh my!</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Internal Style</h2>
+      <p>Some movie jobs to commit to memory:</p>
+      <dl>
+        <dt>Gaffer</dt>
+        <dd>The head electrician.</dd>
+        <dt>Best Boy</dt>
+        <dd>The gaffer's assistant.</dd>
+        <dt>Grip</dt>
+        <dd>A person who moves equipment.</dd>
+      </dl>
+    </div>
+    <div>
+      <h2>External Style</h2>
+      <div>
+        <span class="big-text red-text">Warning!</span><br />
+        CSS classes are extremely addictive. Please use with extreme caution!
+      </div>
+    </div>
+  </body>
+</html>
